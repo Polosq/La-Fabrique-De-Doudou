@@ -29,7 +29,7 @@ function menu(e){
 
     $(this).addClass("titreclic");
 
-    console.info(this.className)
+    console.info(this.className);
 
     if(this.className=="titreclic"){
         $(titrehlwn.parentNode).removeClassClass("invisible");      
@@ -41,6 +41,7 @@ function menu(e){
         $(this).removeClass("titreclic");
     }
 }
+
 
 
 function audioplay(e){
