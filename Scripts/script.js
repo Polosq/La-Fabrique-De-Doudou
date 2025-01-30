@@ -26,11 +26,7 @@ function menu(e){
     $(titrepaques).removeClass("titreclic");
     $(titrefl).removeClass("titreclic");
     $(titrepokemon).removeClass("titreclic");
-
-    $(this).addClass("titreclic");
-
-    console.info(this.className);
-
+    
     if(this.className=="titreclic"){
         $(titrehlwn.parentNode).removeClassClass("invisible");      
         $(titrenoel.parentNode).removeClassClass("invisible");
@@ -39,6 +35,10 @@ function menu(e){
         $(titrepokemon.parentNode).removeClassClass("invisible");
 
         $(this).removeClass("titreclic");
+        
+    }else{
+        $(this.parentNode).removeClass("invisible");
+        $(this).addClass("titreclic");
     }
 }
 
