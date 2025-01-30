@@ -15,7 +15,7 @@ let titrefl = document.getElementById("titrefl");
 let titrepokemon = document.getElementById("titrepokemon");
 
 function menu(e){
-        if (this.className=="titreclic"){
+    if (this.className=="titreclic"){
         $(titrehlwn.parentNode).removeClass("invisible");
         $(titrenoel.parentNode).removeClass("invisible");
         $(titrepaques.parentNode).removeClass("invisible");
