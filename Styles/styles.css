@@ -69,7 +69,6 @@ div.articl{
 div.arcontain{
   background-color: rgba(255,255,255,0.3);
   border-radius: 10px;
-  border: black 1px solid;
 }
 
 div.articl:hover{
