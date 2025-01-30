@@ -95,7 +95,7 @@ div.titre:hover{
 
 div.titreclic{
   background-color: #969690;
-  cursor: no-drop;
+  cursor: crosshair;
   border-radius: 10px;
   padding: 10pt;
   font-size: 16pt;
@@ -103,7 +103,8 @@ div.titreclic{
 }
 
 div.titreclic:hover{
-  color: #969690;
+  color: white;
+  background-color: #969690;
 }
 
 div.general{
