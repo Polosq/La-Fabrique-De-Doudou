@@ -43,7 +43,7 @@ function menu(e){
     }
 }
 
-a
+
 function audioplay(e){
     if(this.id=="divpika"){
         audiopika.play();
