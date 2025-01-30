@@ -15,29 +15,29 @@ let titrefl = document.getElementById("titrefl");
 let titrepokemon = document.getElementById("titrepokemon");
 
 function menu(e){
-    if (e.className=="titreclic"){
-        $(titrehlwn.parentNode).removeClass("invisible");
-        $(titrenoel.parentNode).removeClass("invisible");
-        $(titrepaques.parentNode).removeClass("invisible");
-        $(titrefl.parentNode).removeClass("invisible");
-        $(titrepokemon.parentNode).removeClass("invisible");
+
+    $(titrehlwn.parentNode).addClass("invisible");
+    $(titrenoel.parentNode).addClass("invisible");
+    $(titrepaques.parentNode).addClass("invisible");
+    $(titrefl.parentNode).addClass("invisible");
+    $(titrepokemon.parentNode).addClass("invisible");
+
+    $(titrehlwn).removeClass("titreclic");
+    $(titrenoel).removeClass("titreclic");
+    $(titrepaques).removeClass("titreclic");
+    $(titrefl).removeClass("titreclic");
+    $(titrepokemon).removeClass("titreclic");
+
+    $(this).addClass("titreclic");
+
+    if(this.className=="titreclic"){
+        $(titrehlwn.parentNode).removeClassClass("invisible");      
+        $(titrenoel.parentNode).removeClassClass("invisible");
+        $(titrepaques.parentNode).removeClassClass("invisible");
+        $(titrefl.parentNode).removeClassClass("invisible");
+        $(titrepokemon.parentNode).removeClassClass("invisible");
+
         $(this).removeClass("titreclic");
-    }else{
-        $(titrehlwn).removeClass("titreclic");
-        $(titrenoel).removeClass("titreclic");
-        $(titrepaques).removeClass("titreclic");
-        $(titrefl).removeClass("titreclic");
-        $(titrepokemon).removeClass("titreclic");
-
-        $(titrehlwn.parentNode).addClass("invisible");
-        $(titrenoel.parentNode).addClass("invisible");
-        $(titrepaques.parentNode).addClass("invisible");
-        $(titrefl.parentNode).addClass("invisible");
-        $(titrepokemon.parentNode).addClass("invisible");
-        
-        $(this.parentNode).removeClass("invisible");
-
-        $(this).addClass("titreclic");
     }
 }
 
