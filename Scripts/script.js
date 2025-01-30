@@ -21,11 +21,6 @@ function menu(e){
     $(titrefl.parentNode).addClass("invisible");
     $(titrepokemon.parentNode).addClass("invisible");
 
-    $(titrehlwn).removeClass("titreclic");
-    $(titrenoel).removeClass("titreclic");
-    $(titrepaques).removeClass("titreclic");
-    $(titrefl).removeClass("titreclic");
-    $(titrepokemon).removeClass("titreclic");
     
     if(this.className=="titreclic"){
         $(titrehlwn.parentNode).removeClassClass("invisible");      
@@ -33,9 +28,13 @@ function menu(e){
         $(titrepaques.parentNode).removeClassClass("invisible");
         $(titrefl.parentNode).removeClassClass("invisible");
         $(titrepokemon.parentNode).removeClassClass("invisible");
-
-        $(this).removeClass("titreclic");
-        
+    
+        $(titrehlwn).removeClass("titreclic");
+        $(titrenoel).removeClass("titreclic");
+        $(titrepaques).removeClass("titreclic");
+        $(titrefl).removeClass("titreclic");
+        $(titrepokemon).removeClass("titreclic");
+            
     }else{
         $(this.parentNode).removeClass("invisible");
         $(this).addClass("titreclic");
