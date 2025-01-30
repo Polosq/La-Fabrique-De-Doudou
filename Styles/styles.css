@@ -1,0 +1,122 @@
+body { width:98%; }
+body.index {background: linear-gradient(137deg, rgba(196,0,255,1) 0%, rgba(0,5,255,1) 100%);}
+
+body.halloween {background: linear-gradient(90deg, rgba(255,55,0,1) 0%, rgba(255,111,0,1) 42%, rgba(255,188,0,1) 100%);}
+body.noel {background: linear-gradient(90deg, rgba(255,0,0,1) 30%, rgba(255,255,255,1) 100%); color:#ffffff;}
+body.paques {color:#000000;}
+body.fruitlegume {color:#000000;}
+body.pokemon {color:#000000; background-color:#FC9F02;}
+
+
+h1 { color: #000000 ; font-family: Arial, sans-serif; text-align:center ; font-size:25pt; text-indent:20px; }
+
+h2 {color: #000 ; font-family: Arial, sans-serif; font-size: 20pt ; text-align:center ; text-indent: 15px;}
+
+h1.vert { text-align:justify;}
+h1.blanc { text-align:justify; color:#ffffff;}
+h1.noir { text-align:justify ; color:#000000;}
+
+p { font-family: Arial, sans-serif; font-size: 14pt; text-align:justify ; text-indent:0px; }
+
+p.commentaire { color: #969690; font-size: 8pt; text-indent: 5px;}
+
+.maDiv {display: flex;}
+
+p.marge {text-indent:15px;}
+
+a.surligne:hover{background-color:#98F5F9;}
+
+a.button {
+  background:linear-gradient(137deg, rgba(196,0,255,1) 0%, rgba(0,5,255,1) 100%);
+  padding:5px;
+  border-radius:6px;
+  text-decoration:none;
+  color:#101010;
+  border-width:0px;
+  border-style:solid;
+  border-color:#000000;
+  transition: all 0.8s ease;
+}
+
+a.button:hover {
+  padding:8px;
+  font-size:15pt;
+  color:white;
+  border:none;
+  border-radius:10px;
+}
+
+.help{
+  cursor: help;
+}
+
+.article{
+  text-decoration: none;
+  color: #000000;
+}
+
+div.articl{
+  transition: all 0.8s ease;
+  border:none;
+  height: 251px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 10px;
+}
+
+div.arcontain{
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 10px;
+}
+
+div.articl:hover{
+  background-color: rgba(255,255,255,0.5);
+  border: rgba(129, 0, 0,0.8) 1px solid; 
+}
+
+div.tableau{
+  display: flex;
+  margin-left: 15px;
+}
+
+div.titre{
+  padding: 10pt;
+  font-size: 16pt;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,0.3);
+  cursor:crosshair;
+  border: black 1px solid;
+}
+div.titre:hover{
+  background-color: rgba(255,0,0,0.5);
+}
+
+div.titreclic{
+  background-color: #969690;
+  cursor: no-drop;
+  border-radius: 10px;
+  padding: 10pt;
+  font-size: 16pt;
+  border: black 1px solid;
+}
+
+div.titreclic:hover{
+  color: #969690;
+}
+
+div.general{
+  text-align: center;
+  margin: 15px;
+  font-family: Arial;
+  border-radius: 10px;
+}
+
+img {
+  transition: all 0.5s ease;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
