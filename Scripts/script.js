@@ -30,6 +30,8 @@ function menu(e){
 
     $(this).addClass("titreclic");
 
+    console.info(this.className)
+
     if(this.className=="titreclic"){
         $(titrehlwn.parentNode).removeClassClass("invisible");      
         $(titrenoel.parentNode).removeClassClass("invisible");
