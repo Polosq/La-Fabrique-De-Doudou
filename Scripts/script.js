@@ -15,7 +15,6 @@ let titrefl = document.getElementById("titrefl");
 let titrepokemon = document.getElementById("titrepokemon");
 
 function menu(e){
-
     $(titrehlwn.parentNode).addClass("invisible");
     $(titrenoel.parentNode).addClass("invisible");
     $(titrepaques.parentNode).addClass("invisible");
