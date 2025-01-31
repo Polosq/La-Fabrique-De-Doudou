@@ -14,14 +14,7 @@ let titrepaques = document.getElementById("titrepaques");
 let titrefl = document.getElementById("titrefl");
 let titrepokemon = document.getElementById("titrepokemon");
 
-function menu(e){
-    $(titrehlwn.parentNode).addClass("invisible");
-    $(titrenoel.parentNode).addClass("invisible");
-    $(titrepaques.parentNode).addClass("invisible");
-    $(titrefl.parentNode).addClass("invisible");
-    $(titrepokemon.parentNode).addClass("invisible");
-
-    
+function menu(e){  
     if(this.className=="titreclic"){
         $(titrehlwn.parentNode).removeClass("invisible");      
         $(titrenoel.parentNode).removeClass("invisible");
@@ -36,6 +29,11 @@ function menu(e){
         $(titrepokemon).removeClass("titreclic");
             
     }else{
+        $(titrehlwn.parentNode).addClass("invisible");
+        $(titrenoel.parentNode).addClass("invisible");
+        $(titrepaques.parentNode).addClass("invisible");
+        $(titrefl.parentNode).addClass("invisible");
+        $(titrepokemon.parentNode).addClass("invisible");
         $(this.parentNode).removeClass("invisible");
         $(this).addClass("titreclic");
     }
