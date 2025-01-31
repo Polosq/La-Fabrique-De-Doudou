@@ -16,6 +16,8 @@ let titrepokemon = document.getElementById("titrepokemon");
 
 let boutonaudio = document.getElementById("boutononoff");
 
+boutonaudio.src="Images/on.png";
+
 function menu(e){  
     if(this.className=="titre titreclic"){
         $(titrehlwn.parentNode).removeClass("invisible");      
