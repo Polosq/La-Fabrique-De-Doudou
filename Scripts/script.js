@@ -23,11 +23,11 @@ function menu(e){
 
     
     if(this.className=="titreclic"){
-        $(titrehlwn.parentNode).removeClassClass("invisible");      
-        $(titrenoel.parentNode).removeClassClass("invisible");
-        $(titrepaques.parentNode).removeClassClass("invisible");
-        $(titrefl.parentNode).removeClassClass("invisible");
-        $(titrepokemon.parentNode).removeClassClass("invisible");
+        $(titrehlwn.parentNode).removeClass("invisible");      
+        $(titrenoel.parentNode).removeClass("invisible");
+        $(titrepaques.parentNode).removeClass("invisible");
+        $(titrefl.parentNode).removeClass("invisible");
+        $(titrepokemon.parentNode).removeClass("invisible");
     
         $(titrehlwn).removeClass("titreclic");
         $(titrenoel).removeClass("titreclic");
