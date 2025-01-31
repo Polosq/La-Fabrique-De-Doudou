@@ -42,11 +42,19 @@ function menu(e){
 }
 
 function audiotoogle(e){
-    
+    if (boutonaudio.src=="Images/on.png"){
+        boutonaudio.src="Images/off.png";
+        audiopika.pause();
+        audiosala.pause();
+        audiomeow.pause();
+        audionoel.pause();
+    }else{
+        boutonaudio.src="Images/on.png";
+    }
 }
 
 function audioplay(e){
-
+    if(boutonaudio.src=="Images/on.png"){
         if(this.id=="divpika"){
             audiopika.play();
         }
@@ -59,6 +67,7 @@ function audioplay(e){
         if(this.id=="divnoel"){
             audionoel.play();
         }
+    }
 }
 
 divpika.addEventListener("mouseover", audioplay);
