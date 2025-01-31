@@ -14,6 +14,8 @@ let titrepaques = document.getElementById("titrepaques");
 let titrefl = document.getElementById("titrefl");
 let titrepokemon = document.getElementById("titrepokemon");
 
+let boutonaudio = document.getElementById("boutononoff");
+
 function menu(e){  
     if(this.className=="titre titreclic"){
         $(titrehlwn.parentNode).removeClass("invisible");      
@@ -39,20 +41,24 @@ function menu(e){
     }
 }
 
+function audiotoogle(e){
+    
+}
 
 function audioplay(e){
-    if(this.id=="divpika"){
-        audiopika.play();
-    }
-    if(this.id=="divsala"){
-        audiosala.play();
-    }
-    if(this.id=="divchat"){
-        audiomeow.play();
-    }
-    if(this.id=="divnoel"){
-        audionoel.play();
-    }
+
+        if(this.id=="divpika"){
+            audiopika.play();
+        }
+        if(this.id=="divsala"){
+            audiosala.play();
+        }
+        if(this.id=="divchat"){
+            audiomeow.play();
+        }
+        if(this.id=="divnoel"){
+            audionoel.play();
+        }
 }
 
 divpika.addEventListener("mouseover", audioplay);
@@ -65,3 +71,5 @@ titrenoel.addEventListener("click", menu);
 titrepaques.addEventListener("click", menu);
 titrefl.addEventListener("click", menu);
 titrepokemon.addEventListener("click", menu);
+
+boutonaudio.addEventListener("click", audiotoogle);
