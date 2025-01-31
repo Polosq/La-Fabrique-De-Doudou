@@ -130,6 +130,7 @@ img:hover{
 
 img.onoff{
   transition: none;
+  width: 70px;
 }
 img.onoff:hover{
   transform: none;
