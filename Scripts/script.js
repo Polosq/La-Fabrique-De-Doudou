@@ -59,7 +59,7 @@ function audiotoogle(e){
         audiosala.pause();
         audiomeow.pause();
         audionoel.pause();
-    }else{
+    }else if(boutonaudio.src=="Images/off.png"){
         boutonaudio.src="Images/on.png";
     }
 }
