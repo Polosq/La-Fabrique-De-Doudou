@@ -114,6 +114,12 @@ div.general{
   border-radius: 10px;
 }
 
+div.audiotoogle{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
 img {
   transition: all 0.5s ease;
 }
@@ -125,3 +131,4 @@ img:hover{
 .invisible{
   display: none;
 }
+

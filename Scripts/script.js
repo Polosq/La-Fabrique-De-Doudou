@@ -19,7 +19,7 @@ let boutonaudio = document.getElementById("boutononoff");
 boutonaudio.src="Images/on.png";
 
 function menu(e){  
-    if(this.className=="titre titreclic"){
+    if(this.className=="titreclic"){
         $(titrehlwn.parentNode).removeClass("invisible");      
         $(titrenoel.parentNode).removeClass("invisible");
         $(titrepaques.parentNode).removeClass("invisible");
@@ -31,6 +31,12 @@ function menu(e){
         $(titrepaques).removeClass("titreclic");
         $(titrefl).removeClass("titreclic");
         $(titrepokemon).removeClass("titreclic");
+
+        $(titrehlwn).addClass("titre");
+        $(titrenoel).addClass("titre");
+        $(titrepaques).addClass("titre");
+        $(titrefl).addClass("titre");
+        $(titrepokemon).addClass("titre");
             
     }else{
         $(titrehlwn.parentNode).addClass("invisible");
@@ -38,8 +44,11 @@ function menu(e){
         $(titrepaques.parentNode).addClass("invisible");
         $(titrefl.parentNode).addClass("invisible");
         $(titrepokemon.parentNode).addClass("invisible");
+        
         $(this.parentNode).removeClass("invisible");
+        
         $(this).addClass("titreclic");
+        $(this).removeClass("titre");
     }
 }
 
