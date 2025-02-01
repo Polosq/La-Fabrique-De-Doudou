@@ -115,10 +115,13 @@ div.general{
 }
 
 div.audiotooglecontainer{
-  background-color: rgba(255,255,255,0.2);
   display: flex;
   justify-content: flex-end;
   align-items: left;
+}
+
+div.audiotoogle{
+  background-color: rgba(255,255,255,0.2);
   border-radius: 10px;
 }
 
