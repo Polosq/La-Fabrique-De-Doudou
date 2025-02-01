@@ -116,7 +116,7 @@ div.general{
 
 div.audiotooglecontainer{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: left;
 }
 
