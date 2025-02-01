@@ -57,10 +57,10 @@ function audiotoogle(e){
         $(boutonaudio).addClass("cliquee");
         boutonaudio.src="Images/off.png";
 
-        audiopika.pause();
-        audiosala.pause();
-        audiomeow.pause();
-        audionoel.pause();
+        audiopika.stop();
+        audiosala.stop();
+        audiomeow.stop();
+        audionoel.stop();
     }else{
         boutonaudio.src="Images/on.png";
         $(boutonaudio).removeClass("cliquee");
