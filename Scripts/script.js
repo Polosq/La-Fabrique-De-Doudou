@@ -52,18 +52,18 @@ function menu(e){
     }
 }
 
-console.info(boutonaudio.src);
-
 function audiotoogle(e){
-    console.info("cliqué");
-    if (boutonaudio.src=="Images/on.png"){
+    if (boutonaudio.className=="onoff"){
+        $(boutonaudio).addClass("cliquee");
         boutonaudio.src="Images/off.png";
+
         audiopika.pause();
         audiosala.pause();
         audiomeow.pause();
         audionoel.pause();
-    }else if(boutonaudio.src=="Images/off.png"){
+    }else{
         boutonaudio.src="Images/on.png";
+        $(boutonaudio).removeClass("cliquee");
     }
 }
 
