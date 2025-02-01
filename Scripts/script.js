@@ -16,7 +16,7 @@ let titrepokemon = document.getElementById("titrepokemon");
 
 let boutonaudio = document.getElementById("boutononoff");
 
-boutonaudio.src="Images/on.png";
+boutonaudio.src="Images/off.png";
 
 function menu(e){  
     if(this.className=="titreclic"){
