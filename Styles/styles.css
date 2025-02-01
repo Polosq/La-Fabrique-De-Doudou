@@ -119,6 +119,7 @@ div.audiotooglecontainer{
   display: flex;
   justify-content: flex-end;
   align-items: left;
+  border-radius: 10px;
 }
 
 img {
