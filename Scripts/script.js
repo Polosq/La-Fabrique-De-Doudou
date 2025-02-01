@@ -68,7 +68,7 @@ function audiotoogle(e){
 }
 
 function audioplay(e){
-    if(boutonaudio.className=="onoff"){
+    if(boutonaudio.className == "onoff") {
         if(this.id=="divpika"){
             audiopika.play();
         }
