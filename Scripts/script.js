@@ -53,8 +53,6 @@ function menu(e){
 }
 
 function audiotoogle(e){
-    console.info(boutonaudio.className);
-    console.error(this.className);
     if (boutonaudio.className=="onoff"){
         $(boutonaudio).addClass("cliquee");
         boutonaudio.src="Images/off.png";
@@ -70,8 +68,6 @@ function audiotoogle(e){
 }
 
 function audioplay(e){
-    console.info(boutonaudio.className);
-    console.error(this.id);
     if(boutonaudio.className == "onoff") {
         if(this.id=="divpika"){
             audiopika.play();
