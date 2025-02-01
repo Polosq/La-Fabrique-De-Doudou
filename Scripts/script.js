@@ -52,8 +52,10 @@ function menu(e){
     }
 }
 
+console.info(boutonaudio.src);
+
 function audiotoogle(e){
-    console.info(boutonaudio.src);
+    console.info("cliqué");
     if (boutonaudio.src=="Images/on.png"){
         boutonaudio.src="Images/off.png";
         audiopika.pause();
