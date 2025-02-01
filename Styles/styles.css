@@ -115,7 +115,6 @@ div.general{
 }
 
 div.audiotoogle{
-  display: flex;
   justify-content: left;
   align-items: left;
   float: left;
