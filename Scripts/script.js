@@ -81,6 +81,19 @@ function audioplay(e){
         if(this.id=="divnoel"){
             audionoel.play();
         }
+    }else{
+        if(this.id=="divpika"){
+            audiopika.stop();
+        }
+        if(this.id=="divsala"){
+            audiosala.stop();
+        }
+        if(this.id=="divchat"){
+            audiomeow.stop();
+        }
+        if(this.id=="divnoel"){
+            audionoel.stop();
+        }
     }
 }
 
