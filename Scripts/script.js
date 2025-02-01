@@ -83,16 +83,16 @@ function audioplay(e){
         }
     }else{
         if(this.id=="divpika"){
-            audiopika.stop();
+            audiopika.muted();
         }
         if(this.id=="divsala"){
-            audiosala.stop();
+            audiosala.muted();
         }
         if(this.id=="divchat"){
-            audiomeow.stop();
+            audiomeow.muted();
         }
         if(this.id=="divnoel"){
-            audionoel.stop();
+            audionoel.muted();
         }
     }
 }
