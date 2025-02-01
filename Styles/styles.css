@@ -114,10 +114,10 @@ div.general{
   border-radius: 10px;
 }
 
-div.audiotoogle{
-  justify-content: left;
+div.audiotooglecontainer{
+  display: flex;
+  justify-content: center;
   align-items: left;
-  float: left;
 }
 
 img {
