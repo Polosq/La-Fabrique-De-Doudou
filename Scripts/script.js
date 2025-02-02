@@ -109,7 +109,7 @@ function redirect(e){
     if(this.id=="divcsouris"){
         window.location.href="Page/Halloween2.html";
     }
-    if(this.id=="divpnoel"){
+    if(this.id=="divnoel"){
         window.location.href="Page/Noel1.html";
     }
     if(this.id=="divrene"){
