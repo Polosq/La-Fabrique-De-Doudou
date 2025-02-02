@@ -4,7 +4,7 @@ function mobile(e){
     if(window.innerWidth<window.innerHeight){
         $(div).removeClass("maDiv").addClass("maDivmobile");
     }else{
-        $(tab).removeClass("maDivmobile").addClass("maDiv");
+        $(div).removeClass("maDivmobile").addClass("maDiv");
     }
 }
 
