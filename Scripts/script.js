@@ -137,14 +137,7 @@ function redirect(e){
     }   
 }
 
-function mobile(e){
-    if (window.innerWidth < window.innerHeight){
-        $(tab).removeClass("tableau").addClass("tableaumobile");
-    }
-    else{
-        $(tab).removeClass("tableaumobile").addClass("tableau");
-}
-}
+
 
 divpika.addEventListener("mouseover", audioplay);
 divsala.addEventListener("mouseover", audioplay);
@@ -169,8 +162,3 @@ titrefl.addEventListener("click", menu);
 titrepokemon.addEventListener("click", menu);
 
 boutonaudio.addEventListener("click", audiotoogle);
-
-window.addEventListener("resize", mobile);
-window.addEventListener("load", mobile);
-window.addEventListener("orientationchange", mobile);
-window.addEventListener("fullscreenchange", mobile);
