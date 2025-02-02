@@ -79,6 +79,7 @@ div.articl:hover{
 div.tableau{
   display: flex;
   margin-left: 15px;
+  display: block;
 }
 
 div.titre{
