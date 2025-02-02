@@ -119,6 +119,7 @@ div.general{
   margin: 15px;
   font-family: Arial;
   border-radius: 10px;
+  flex: 1;
 }
 
 div.audiotooglecontainer{
