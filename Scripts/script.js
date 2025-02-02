@@ -3,10 +3,20 @@ let audiosala = document.getElementById("salameche");
 let audiomeow = document.getElementById("chat");
 let audionoel = document.getElementById("noel");
 
+let divchat = document.getElementById("divchat");
+let divcsouris = document.getElementById("divcsouris");
+
+let divpnoel = document.getElementById("divnoel");
+let divrene = document.getElementById("divrene");
+
+let divlapinou = document.getElementById("divlapinou");
+let divlapin = document.getElementById("divlapin");
+
+let divaubergine = document.getElementById("divaubergine");
+let divpoire = document.getElementById("divpoire");
+
 let divpika = document.getElementById("divpika");
 let divsala = document.getElementById("divsala");
-let divchat = document.getElementById("divchat");
-let divnoel = document.getElementById("divnoel");
 
 let titrehlwn = document.getElementById("titrehlwn");
 let titrenoel = document.getElementById("titrenoel");
@@ -92,10 +102,55 @@ function audioplay(e){
     }
 }
 
+function redirect(e){
+    if(this.id=="divchat"){
+        window.location.href="Page/Halloween1.html";
+    }
+    if(this.id=="divcsouris"){
+        window.location.href="Page/Halloween2.html";
+    }
+    if(this.id=="divpnoel"){
+        window.location.href="Page/Noel1.html";
+    }
+    if(this.id=="divrene"){
+        window.location.href="Page/Noel2.html";
+    }
+    if(this.id=="divlapinou"){
+        window.location.href="Page/Paques1.html";
+    }
+    if(this.id=="divlapin"){
+        window.location.href="Page/Paques2.html";
+    }
+    if(this.id=="divaubergine"){
+        window.location.href="Page/Legume.html";
+    }
+    if(this.id=="divpoire"){
+        window.location.href="Page/Fruit.html";
+    }
+    if(this.id=="divpika"){
+        window.location.href="Page/Pokemon1.html";
+    }
+    if(this.id=="divsala"){
+        window.location.href="Page/Pokemon2.html";
+    }   
+}
+
+
 divpika.addEventListener("mouseover", audioplay);
 divsala.addEventListener("mouseover", audioplay);
 divchat.addEventListener("mouseover", audioplay);
-divnoel.addEventListener("mouseover", audioplay);
+divpnoel.addEventListener("mouseover", audioplay);
+
+divchat.addEventListener("click", redirect);
+divcsouris.addEventListener("click", redirect);
+divpnoel.addEventListener("click", redirect);
+divrene.addEventListener("click", redirect);
+divlapinou.addEventListener("click", redirect);
+divlapin.addEventListener("click", redirect);
+divaubergine.addEventListener("click", redirect);
+divpoire.addEventListener("click", redirect);
+divpika.addEventListener("click", redirect);
+divsala.addEventListener("click", redirect);
 
 titrehlwn.addEventListener("click", menu);
 titrenoel.addEventListener("click", menu);
