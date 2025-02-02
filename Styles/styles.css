@@ -124,7 +124,6 @@ div.general{
 div.audiotooglecontainer{
   display: flex;
   justify-content: flex-end;
-  align-items: left;
 }
 
 div.audiotoogle{
