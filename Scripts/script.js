@@ -69,30 +69,38 @@ function audiotoogle(e){
 
 function audioplay(e){
     if(boutonaudio.className == "onoff") {
+        audiopika.muted=true;
+        audiosala.muted=true;
+        audiomeow.muted=true;
+        audionoel.muted=true;
         if(this.id=="divpika"){
+            audiopika.muted=false;
             audiopika.play();
         }
         if(this.id=="divsala"){
+            audiosala.muted=false;
             audiosala.play();
         }
         if(this.id=="divchat"){
+            audiomeow.muted=false;
             audiomeow.play();
         }
         if(this.id=="divnoel"){
+            audionoel.muted=false;
             audionoel.play();
         }
     }else{
         if(this.id=="divpika"){
-            audiopika.muted();
+            audiopika.muted=true;
         }
         if(this.id=="divsala"){
-            audiosala.muted();
+            audiosala.muted=true;
         }
         if(this.id=="divchat"){
-            audiomeow.muted();
+            audiomeow.muted=true;
         }
         if(this.id=="divnoel"){
-            audionoel.muted();
+            audionoel.muted=true;
         }
     }
 }
