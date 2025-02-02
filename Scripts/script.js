@@ -57,10 +57,10 @@ function audiotoogle(e){
         $(boutonaudio).addClass("cliquee");
         boutonaudio.src="Images/off.png";
 
-        audiopika.stop();
-        audiosala.stop();
-        audiomeow.stop();
-        audionoel.stop();
+        audiopika.muted=true;
+        audiosala.muted=true;
+        audiomeow.muted=true;
+        audionoel.muted=true;
     }else{
         boutonaudio.src="Images/on.png";
         $(boutonaudio).removeClass("cliquee");
@@ -88,19 +88,6 @@ function audioplay(e){
         if(this.id=="divnoel"){
             audionoel.muted=false;
             audionoel.play();
-        }
-    }else{
-        if(this.id=="divpika"){
-            audiopika.muted=true;
-        }
-        if(this.id=="divsala"){
-            audiosala.muted=true;
-        }
-        if(this.id=="divchat"){
-            audiomeow.muted=true;
-        }
-        if(this.id=="divnoel"){
-            audionoel.muted=true;
         }
     }
 }
