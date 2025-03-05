@@ -65,6 +65,7 @@ div.articl{
   justify-content: flex-end;
   align-items: center;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 div.arcontain{
@@ -152,4 +153,8 @@ img.onoff:hover{
 
 .invisible{
   display: none;
+}
+
+.lien{
+  cursor: pointer;
 }
