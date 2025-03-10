@@ -80,7 +80,7 @@ function audiotoogle(e){
 }
 
 function audioplay(e){
-    if(boutonaudio.className == "onoff") {
+    if(boutonaudio.className == "onoff lien") {
         audiopika.muted=true;
         audiosala.muted=true;
         audiomeow.muted=true;
