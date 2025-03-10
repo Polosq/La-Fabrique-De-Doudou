@@ -66,7 +66,7 @@ function menu(e){
 
 function audiotoogle(e){
     if (boutonaudio.className=="onoff"){
-        $(boutonaudio).addClass("cliquee");
+        $(boutonaudio).addClass("cliquee lien");
         boutonaudio.src="Images/off.png";
 
         audiopika.muted=true;
